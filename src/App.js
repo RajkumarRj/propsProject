@@ -8,7 +8,7 @@ import jsonData from './component/moviedetails.json'
 function App() {
   return (
     <div className="App">
-      
+      <Main/>
       {jsonData.map(movie => (
         <Movie
           key={movie.id}
