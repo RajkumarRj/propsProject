@@ -1,23 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import Main from './component/main.js'
+import Movie from './component/movie.js'
+import jsonData from './component/moviedetails.json'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {jsonData.map(movie => (
+        <Movie
+          key={movie.id}
+          title={movie.title}
+          year={movie.year}
+          actor={movie.actor}
+          runTime={movie.runTime}
+          genre={movie.genre}
+          description={movie.description}
+          imageBanner={movie.imageBanner}
+          imageAside={movie.imageAside}
+          rating={movie.rating}
+        />
+      ))}
+      
+
     </div>
   );
 }

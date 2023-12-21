@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "title": "Bright",
+      "year":"2017",
+      "actor":"David Ayer",
+      "genre":"Action, Crime, Fantasy",
+      "runTime":"117 min",
+      "description": "Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work with an Orc to find a weapon everyone is prepared to kill for.",
+      "imageBanner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF18olWMjM4fN_dtEDm8YQRUWdpXXTereddj5OgegEHVU3XmZ8",
+      "imageAside":"https://occ-0-4821-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQiBTbz8AGwhkFGYf-0Rha7dd37jHgFGPMsKO5h3VallDca14QCBH8xntuX1j-YYskQZk64u3S920TaTszjVh1HsLe_ZjpB6VjEO.jpg?r=d99",
+      "rating": 9.3
+    },
+    {
+        "id": 2,
+        "title": "Tomb Raider",
+        "year":"2018",
+        "actor":"Roar Uthaug",
+        "genre":"Action, Fantasy",
+        "runTime":"125 min",
+        "description": "Lara Croft, the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she discovers the island where her father, Lord Richard Croft disappeared.",
+        "imageBanner": "https://www.movienewsletters.net/photos/235009R1.jpg",
+        "imageAside":"https://assets.teenvogue.com/photos/59c43eb41291e33b6a44b667/16:9/w_2560%2Cc_limit/lara-lede.jpg",
+        "rating": 9.3
+    },
+    {
+        "id": 3,
+        "title": "The Dark Knight",
+        "year":"2008",
+        "actor":"Christian Bale",
+        "genre":"Action, Crime, Drama",
+        "runTime":"152 min",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "imageBanner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThtN9KWJbvPrNMJIzudYSghoP2DfMtlpv9wCf73v3fl5m1J6Ks",
+        "imageAside":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Pn0LdlhUnSMycSsAKewT2wMYHiWX4QJXPA&usqp=CAU",
+        "rating": 9.3
+    }
+
+  ]
+  
